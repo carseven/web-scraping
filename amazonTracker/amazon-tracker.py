@@ -35,6 +35,7 @@ def check_amazon_price(URL: str) -> float:
         return float(re.search("\d+", euro_price).group())
     except:
         print('No se ha encontrado el precio, el articulo no disponible.')
+        return 0.0
 
 
 def send_mail(mail, password, URL):

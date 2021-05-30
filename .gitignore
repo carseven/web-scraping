@@ -128,5 +128,10 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+
+# -------- Project -----------
 # Archivo de configuracion contraseña
-password.txt
+notionApi/secrets.py
+
+# Respuesta de las api
+database.json
